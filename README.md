@@ -15,6 +15,8 @@ UIView.animateWithDuration(1.0, delay: 1.0, options: [.Autoreverse , .Repeat], a
  })
 ```
 
+---
+Especially useful for transitioning between UILabel text
 ```
 UIView.transitionWithView(view, duration: 1.0, options: [.TransitionCrossDissolve], animations: { () -> Void in
          
